@@ -4,6 +4,7 @@
 
 soong_namespace {
     imports: [
+        "hardware/qcom-caf/common/libqti-perfd-client",
         "hardware/xiaomi",
         "vendor/qcom/opensource/display",
         "vendor/xiaomi/sm6150-common",
