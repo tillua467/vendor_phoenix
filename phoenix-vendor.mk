@@ -164,6 +164,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
 
 PRODUCT_PACKAGES += \
+    libcrypto_shim \
     btaudio_offload_if \
     audio.primary.sm6150 \
     liba2dpoffload \
